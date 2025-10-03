@@ -13,10 +13,9 @@
 (() => {
    
     try {
-        document.querySelector(".help-left-navigation")?.remove();
-        document.querySelector("#ces_holder")?.remove();
-        document.querySelector("#hmb-header")?.remove();
-        document.querySelector(".help-search")?.remove();
+        document.querySelector(".header")?.remove();
+        document.querySelector(".sticky-bottom-nav")?.remove();
+        document.querySelector(".footer")?.remove();
       } catch (e) {
         // noop
       }
